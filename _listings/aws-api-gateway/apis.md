@@ -33,7 +33,7 @@ apis:
   tags: Models
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-api-gateway/restapis-uojnr9hd57-models-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-api-gateway/restapis-l9kujxkzq2-models-get.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/apigateway/api-reference/
