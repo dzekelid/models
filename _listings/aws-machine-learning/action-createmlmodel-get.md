@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateMLModel&k=1:
+  /?Action=CreateMLModel:
     get:
       summary: ' Create M L Model '
       description: |-
