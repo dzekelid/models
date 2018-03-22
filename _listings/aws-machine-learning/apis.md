@@ -36,7 +36,7 @@ apis:
   tags: Models
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/action-deletemlmodel-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/action-describemlmodels-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
