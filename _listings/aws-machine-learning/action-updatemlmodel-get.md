@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateMLModel&k=1:
+  /?Action=UpdateMLModel:
     get:
       summary: ' Update M L Model '
       description: Updates the MLModelName and the ScoreThreshold of an MLModel
