@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteMLModel&k=1:
+  /?Action=DeleteMLModel:
     get:
       summary: ' Delete M L Model '
       description: Assigns the DELETED status to an MLModel, rendering it unusable
