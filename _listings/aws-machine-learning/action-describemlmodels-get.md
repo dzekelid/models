@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeMLModels&k=1:
+  /?Action=DescribeMLModels:
     get:
       summary: ' Describe M L Models '
       description: Returns a list of MLModel that match the search criteria in the
