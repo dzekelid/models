@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetMLModel&k=1:
+  /?Action=GetMLModel:
     get:
       summary: ' Get M L Model '
       description: Returns an MLModel that includes detailed metadata, data source
