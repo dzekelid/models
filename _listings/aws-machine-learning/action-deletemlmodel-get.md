@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Delete M L Model
   version: 1.0.0
+  description: Assigns the DELETED status to an MLModel, rendering it unusable.
 schemes:
 - http
 produces:
