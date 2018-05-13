@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS API Gateway API
+  title: AWS API Gateway API Model Create
   version: 1.0.0
+  description: Creates a new Model for this API.
 schemes:
 - http
 produces:
