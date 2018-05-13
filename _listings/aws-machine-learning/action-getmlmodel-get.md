@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Get M L Model
   version: 1.0.0
+  description: Returns an MLModel that includes detailed metadata, data source information,
+    and the current status of the MLModel.
 schemes:
 - http
 produces:
