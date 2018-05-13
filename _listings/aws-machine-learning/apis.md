@@ -37,16 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/action-updatemlmodel-get.md
-- name: AWS Machine Learning API Get M L Model
-  description: Returns an MLModel that includes detailed metadata, data source information,
-    and the current status of the MLModel.
+- name: AWS Machine Learning API Update M L Model
+  description: Updates the MLModelName and the ScoreThreshold of an MLModel.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: http:://{host}//
   tags: Models
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/action-getmlmodel-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/action-updatemlmodel-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
