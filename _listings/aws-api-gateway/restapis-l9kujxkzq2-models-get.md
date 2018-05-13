@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS API Gateway API
+  title: AWS API Gateway API Restapi Models
   version: 1.0.0
+  description: Gets an API&#39;s model collection represented by a Models instance.
 schemes:
 - http
 produces:
