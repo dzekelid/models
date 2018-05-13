@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Update M L Model
   version: 1.0.0
+  description: Updates the MLModelName and the ScoreThreshold of an MLModel.
 schemes:
 - http
 produces:
