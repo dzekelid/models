@@ -34,15 +34,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-api-gateway/restapis-l9kujxkzq2-models-get.md
-- name: AWS API Gateway API Model Create
-  description: Creates a new Model for this API.
+- name: AWS API Gateway API Restapi Models
+  description: Gets an API&#39;s model collection represented by a Models instance.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-api-gateway-icon.png
   humanURL: https://aws.amazon.com/api-gateway/
   baseURL: http:://{host}//
   tags: Models
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-api-gateway/restapis-uojnr9hd57-models-post.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-api-gateway/restapis-l9kujxkzq2-models-get.md
 x-common:
 - type: x-documentation
   url: https://docs.aws.amazon.com/apigateway/api-reference/
