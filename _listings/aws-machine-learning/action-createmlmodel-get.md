@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Machine Learning API
+  title: AWS Machine Learning API Create M L Model
   version: 1.0.0
+  description: |-
+    Creates a new MLModel using the DataSource and the recipe as
+                information sources.
 schemes:
 - http
 produces:
