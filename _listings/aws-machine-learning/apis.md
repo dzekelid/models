@@ -37,15 +37,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/action-updatemlmodel-get.md
-- name: AWS Machine Learning API Delete M L Model
-  description: Assigns the DELETED status to an MLModel, rendering it unusable.
+- name: AWS Machine Learning API Describe M L Models
+  description: Returns a list of MLModel that match the search criteria in the request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: http:://{host}//
   tags: Models
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/action-deletemlmodel-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/action-describemlmodels-get.md
 x-common:
 - type: x-command-line-interface
   url: http://aws.amazon.com/cli/
