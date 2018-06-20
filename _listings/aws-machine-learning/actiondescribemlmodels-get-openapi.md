@@ -55,6 +55,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Models
   /?Action=DeleteMLModel:
     get:
@@ -71,6 +72,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Models
   /?Action=DescribeMLModels:
     get:
@@ -130,6 +132,7 @@ paths:
         200:
           description: OK
       tags:
+      - Machine Learning
       - Models
 x-streamrank:
   polling_total_time_average: 0

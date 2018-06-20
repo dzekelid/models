@@ -18,10 +18,10 @@ description: Amazon Machine Learning is a service that makes it easy for develop
   go, so you can start small and scale as your application grows.
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
 x-kinRank: "10"
-x-alexaRank: ""
+x-alexaRank: "0"
 tags: Models
-created: "2018-05-20"
-modified: "2018-05-20"
+created: "2018-06-20"
+modified: "2018-06-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/apis.md
 specificationVersion: "0.14"
 apis:
@@ -33,7 +33,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=CreateMLModel
-  tags: Models
+  tags: Machine Learning,Models
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/actioncreatemlmodel-get-openapi.md
@@ -43,7 +43,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DeleteMLModel
-  tags: Models
+  tags: Machine Learning,Models
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/actiondeletemlmodel-get-openapi.md
@@ -53,7 +53,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=DescribeMLModels
-  tags: Models
+  tags: Machine Learning,Models
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/actiondescribemlmodels-get-openapi.md
@@ -64,7 +64,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=GetMLModel
-  tags: Models
+  tags: Machine Learning,Models
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/actiongetmlmodel-get-openapi.md
@@ -74,7 +74,7 @@ apis:
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Analytics_AmazonMachineLearning.png
   humanURL: https://aws.amazon.com/machine-learning/
   baseURL: ://///?Action=UpdateMLModel
-  tags: Models
+  tags: Machine Learning,Models
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/aws-machine-learning/actionupdatemlmodel-get-openapi.md
