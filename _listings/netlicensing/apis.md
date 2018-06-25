@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28466-labs
 x-kinRank: "7"
 x-alexaRank: "1080577"
 tags: Models
-created: "2018-06-20"
-modified: "2018-06-20"
+created: "2018-06-25"
+modified: "2018-06-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/netlicensing/apis.md
 specificationVersion: "0.14"
 apis:
