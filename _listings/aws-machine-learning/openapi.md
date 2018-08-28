@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Machine Learning
 x-complete: 1
@@ -181,4 +180,92 @@ paths:
       tags:
       - Machine Learning
       - Models
----
+  /?Action=CreateEvaluation:
+    get:
+      summary: Create Evaluation
+      description: Creates a new Evaluation of an MLModel.
+      operationId: createEvaluation
+      x-api-path-slug: actioncreateevaluation-get
+      parameters:
+      - in: query
+        name: EvaluationDataSourceId
+        description: The ID of the DataSource for the evaluation
+        type: string
+      - in: query
+        name: EvaluationId
+        description: A user-supplied ID that uniquely identifies the Evaluation
+        type: string
+      - in: query
+        name: EvaluationName
+        description: A user-supplied name or description of the Evaluation
+        type: string
+      - in: query
+        name: MLModelId
+        description: The ID of the MLModel to evaluate
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Evaluations
+  /?Action=CreateRealtimeEndpoint:
+    get:
+      summary: Create Realtime Endpoint
+      description: Creates a real-time endpoint for the MLModel.
+      operationId: createRealtimeEndpoint
+      x-api-path-slug: actioncreaterealtimeendpoint-get
+      parameters:
+      - in: query
+        name: MLModelId
+        description: The ID assigned to the MLModel during creation
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Real Time
+  /?Action=DeleteRealtimeEndpoint:
+    get:
+      summary: Delete Realtime Endpoint
+      description: Deletes a real time endpoint of an MLModel.
+      operationId: deleteRealtimeEndpoint
+      x-api-path-slug: actiondeleterealtimeendpoint-get
+      parameters:
+      - in: query
+        name: MLModelId
+        description: The ID assigned to the MLModel during creation
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Real Time
+  /?Action=Predict:
+    get:
+      summary: Predict
+      description: Generates a prediction for the observation using the specified
+        ML Model.
+      operationId: predict
+      x-api-path-slug: actionpredict-get
+      parameters:
+      - in: query
+        name: MLModelId
+        description: A unique identifier of the MLModel
+        type: string
+      - in: query
+        name: PredictEndpoint
+        description: 'Type: String'
+        type: string
+      - in: query
+        name: Record
+        description: A map of variable name-value pairs that represent an observation
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Predict

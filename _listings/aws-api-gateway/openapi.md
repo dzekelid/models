@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS API Gateway
 x-complete: 1
@@ -72,4 +71,78 @@ paths:
           description: OK
       tags:
       - Models
----
+  /restapis/uojnr9hd57/models/CalcOutput:
+    delete:
+      summary: Model Delete
+      description: Deletes a model.
+      operationId: modelDelete
+      x-api-path-slug: restapisuojnr9hd57modelscalcoutput-delete
+      parameters:
+      - in: header
+        name: Authorization
+        type: string
+      - in: header
+        name: Content-Type
+        type: string
+      - in: header
+        name: Host
+        type: string
+      - in: header
+        name: X-Amz-Date
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Model
+  /restapis/uojnr9hd57/models/output/default_template:
+    get:
+      summary: Model Generatetemplate
+      description: Generates a sample mapping template that can be used to transform
+        a payload into the structure of a model.
+      operationId: modelGenerate-template
+      x-api-path-slug: restapisuojnr9hd57modelsoutputdefault-template-get
+      parameters:
+      - in: header
+        name: Authorization
+        type: string
+      - in: header
+        name: Content-Type
+        type: string
+      - in: header
+        name: Host
+        type: string
+      - in: header
+        name: X-Amz-Date
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Model
+      - Templates
+  /restapis/uojnr9hd57/models/output:
+    get:
+      summary: Model Byname
+      description: Gets information about the Model of a specified name.
+      operationId: modelBy-name
+      x-api-path-slug: restapisuojnr9hd57modelsoutput-get
+      parameters:
+      - in: header
+        name: Authorization
+        type: string
+      - in: header
+        name: Content-Type
+        type: string
+      - in: header
+        name: Host
+        type: string
+      - in: header
+        name: X-Amz-Date
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Model
+      - Byname

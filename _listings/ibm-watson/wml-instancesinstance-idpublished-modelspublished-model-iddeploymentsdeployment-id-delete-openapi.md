@@ -8,7 +8,6 @@ info:
   description: Delete wml instances instance published models published model deployments
     deployment.
   version: 1.0.0
-host: ibm-watson-ml.mybluemix.net
 basePath: v3/
 schemes:
 - http
@@ -16,6 +15,7 @@ produces:
 - application/json
 consumes:
 - application/json
+host: ibm-watson-ml.mybluemix.net
 paths:
   /wml_instances/{instance_id}/published_models:
     get:
@@ -462,6 +462,38 @@ paths:
       - Deployments
       - Deployment
       - Id
+  /wml_instances/{instance_id}/published_models/{published_model_id}/deployments/{deployment_id}/online:
+    post:
+      summary: Post Wml Instances Instance Published Models Published Model Deployments
+        Deployment Online
+      description: Post wml instances instance published models published model deployments
+        deployment online.
+      operationId: makes-an-online-prediction-on-a-given-data-values
+      x-api-path-slug: wml-instancesinstance-idpublished-modelspublished-model-iddeploymentsdeployment-idonline-post
+      parameters:
+      - in: body
+        name: online_prediction_input
+        description: The input data
+        schema:
+          $ref: '#/definitions/holder'
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Wml
+      - Instances
+      - Instance
+      - Id
+      - Published
+      - Models
+      - Published
+      - Model
+      - Id
+      - Deployments
+      - Deployment
+      - Id
+      - Online
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

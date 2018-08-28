@@ -9,38 +9,185 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "8"
 x-alexaRank: "0"
 tags: Models
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Global Change Information System API List models.
-  x-api-slug: global-change-information-system-api
+- name: Global Change Information System API - List models.
+  x-api-slug: model-get
   description: List the models, 20 per page.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
   humanURL: http://globalchange.gov/
-  baseURL: https://data.globalchange.gov////model
-  tags: Models
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-get-openapi.md
-- name: Global Change Information System API
-  x-api-slug: global-change-information-system-api
-  description: The U.S. Global Change Research Program (USGCRP) was established by
-    Presidential Initiative in 1989 and mandated by Congress in the Global Change
-    Research Act (GCRA) of 1990 to &ldquo;assist the Nation and the world to understand,
-    assess, predict, and respond to human-induced and natural processes of global
-    change.&rdquo;
+- name: Global Change Information System API - Get a representation of a model.
+  x-api-slug: modelmodel-identifier-get
+  description: Get JSON which represents the structure of a model.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
   humanURL: http://globalchange.gov/
   baseURL: https://data.globalchange.gov//
-  tags: Models
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/modelmodel-identifier-get-postman.md
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/openapi.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/modelmodel-identifier-get-openapi.md
+- name: Global Change Information System API - List model runs for a particular model.
+  x-api-slug: modelmodel-identifierrun-get
+  description: List the model runs for a particular model, 20 per page.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/modelmodel-identifierrun-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/modelmodel-identifierrun-get-openapi.md
+- name: Global Change Information System API - List model runs.
+  x-api-slug: model-run-get
+  description: List the model runs, 20 per page.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-run-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-run-get-openapi.md
+- name: Global Change Information System API - Get a representation of a model run.
+  x-api-slug: model-runmodel-identifierscenario-identifierrange-startrange-endspatial-resolutiontime-resolutionsequence-get
+  description: Get JSON which represents the structure of a model run.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-runmodel-identifierscenario-identifierrange-startrange-endspatial-resolutiontime-resolutionsequence-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-runmodel-identifierscenario-identifierrange-startrange-endspatial-resolutiontime-resolutionsequence-get-openapi.md
+- name: Global Change Information System API - Get a representation of a model run.
+  x-api-slug: model-runmodel-run-identifier-get
+  description: Get JSON which represents the structure of a model run.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-runmodel-run-identifier-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-runmodel-run-identifier-get-openapi.md
+- name: Global Change Information System API - List model runs for a particular scenario.
+  x-api-slug: scenarioscenario-identifierrun-get
+  description: List the model runs for a particular scenario, 20 per page.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/scenarioscenario-identifierrun-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/scenarioscenario-identifierrun-get-openapi.md
+- name: Global Change Information System API - List model runs for a particular scenario.
+  x-api-slug: scenarioscenario-identifierrun-get
+  description: List the model runs for a particular scenario, 20 per page.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/scenarioscenario-identifierrun-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/scenarioscenario-identifierrun-get-openapi.md
+- name: Global Change Information System API - Get a representation of a model run.
+  x-api-slug: model-runmodel-run-identifier-get
+  description: Get JSON which represents the structure of a model run.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-runmodel-run-identifier-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-runmodel-run-identifier-get-openapi.md
+- name: Global Change Information System API - Get a representation of a model run.
+  x-api-slug: model-runmodel-identifierscenario-identifierrange-startrange-endspatial-resolutiontime-resolutionsequence-get
+  description: Get JSON which represents the structure of a model run.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-runmodel-identifierscenario-identifierrange-startrange-endspatial-resolutiontime-resolutionsequence-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-runmodel-identifierscenario-identifierrange-startrange-endspatial-resolutiontime-resolutionsequence-get-openapi.md
+- name: Global Change Information System API - List model runs.
+  x-api-slug: model-run-get
+  description: List the model runs, 20 per page.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-run-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/model-run-get-openapi.md
+- name: Global Change Information System API - List model runs for a particular model.
+  x-api-slug: modelmodel-identifierrun-get
+  description: List the model runs for a particular model, 20 per page.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/modelmodel-identifierrun-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/modelmodel-identifierrun-get-openapi.md
+- name: Global Change Information System API - Get a representation of a model.
+  x-api-slug: modelmodel-identifier-get
+  description: Get JSON which represents the structure of a model.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/global-change-gov.png
+  humanURL: http://globalchange.gov/
+  baseURL: https://data.globalchange.gov//
+  tags: Federal Government, Federal Government, Stack Network, API Provider, Profiles,
+    General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/modelmodel-identifier-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/models/master/_listings/globalchange-gov/modelmodel-identifier-get-openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://gitter.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://globalchange.gov.stack.network
 - type: x-developer
   url: http://data.globalchange.gov/
 - type: x-website

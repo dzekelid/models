@@ -74,6 +74,160 @@ paths:
       tags:
       - Machine Learning
       - Models
+  /?Action=DescribeMLModels:
+    get:
+      summary: Describe M L Models
+      description: Returns a list of MLModel that match the search criteria in the
+        request.
+      operationId: describeMLModels
+      x-api-path-slug: actiondescribemlmodels-get
+      parameters:
+      - in: query
+        name: EQ
+        description: The equal to operator
+        type: string
+      - in: query
+        name: FilterVariable
+        description: 'Use one of the following variables to filter a list of MLModel:'
+        type: string
+      - in: query
+        name: GE
+        description: The greater than or equal to operator
+        type: string
+      - in: query
+        name: GT
+        description: The greater than operator
+        type: string
+      - in: query
+        name: LE
+        description: The less than or equal to operator
+        type: string
+      - in: query
+        name: Limit
+        description: The number of pages of information to include in the result
+        type: string
+      - in: query
+        name: LT
+        description: The less than operator
+        type: string
+      - in: query
+        name: NE
+        description: The not equal to operator
+        type: string
+      - in: query
+        name: NextToken
+        description: The ID of the page in the paginated results
+        type: string
+      - in: query
+        name: Prefix
+        description: A string that is found at the beginning of a variable, such as
+          Name or Id
+        type: string
+      - in: query
+        name: SortOrder
+        description: A two-value parameter that determines the sequence of the resulting
+          list of MLModel
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Models
+  /?Action=GetMLModel:
+    get:
+      summary: Get M L Model
+      description: Returns an MLModel that includes detailed metadata, data source
+        information, and the current status of the MLModel.
+      operationId: getMLModel
+      x-api-path-slug: actiongetmlmodel-get
+      parameters:
+      - in: query
+        name: MLModelId
+        description: The ID assigned to the MLModel at creation
+        type: string
+      - in: query
+        name: Verbose
+        description: Specifies whether the GetMLModel operation should return Recipe
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Models
+  /?Action=UpdateMLModel:
+    get:
+      summary: Update M L Model
+      description: Updates the MLModelName and the ScoreThreshold of an MLModel.
+      operationId: updateMLModel
+      x-api-path-slug: actionupdatemlmodel-get
+      parameters:
+      - in: query
+        name: MLModelId
+        description: The ID assigned to the MLModel during creation
+        type: string
+      - in: query
+        name: MLModelName
+        description: A user-supplied name or description of the MLModel
+        type: string
+      - in: query
+        name: ScoreThreshold
+        description: The ScoreThreshold used in binary classification MLModel that
+          marks the boundary between a positive prediction and a negative prediction
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Models
+  /?Action=CreateEvaluation:
+    get:
+      summary: Create Evaluation
+      description: Creates a new Evaluation of an MLModel.
+      operationId: createEvaluation
+      x-api-path-slug: actioncreateevaluation-get
+      parameters:
+      - in: query
+        name: EvaluationDataSourceId
+        description: The ID of the DataSource for the evaluation
+        type: string
+      - in: query
+        name: EvaluationId
+        description: A user-supplied ID that uniquely identifies the Evaluation
+        type: string
+      - in: query
+        name: EvaluationName
+        description: A user-supplied name or description of the Evaluation
+        type: string
+      - in: query
+        name: MLModelId
+        description: The ID of the MLModel to evaluate
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Evaluations
+  /?Action=CreateRealtimeEndpoint:
+    get:
+      summary: Create Realtime Endpoint
+      description: Creates a real-time endpoint for the MLModel.
+      operationId: createRealtimeEndpoint
+      x-api-path-slug: actioncreaterealtimeendpoint-get
+      parameters:
+      - in: query
+        name: MLModelId
+        description: The ID assigned to the MLModel during creation
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Machine Learning
+      - Real Time
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
